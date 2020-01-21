@@ -1,5 +1,5 @@
 #include <iostream>
-#include <stdlib.h>
+#include <cstdlib>
 
 using namespace std;
 
@@ -80,7 +80,6 @@ int main()
     cout << "         ``.@#++.''##.+;:....````.....,,+'++`+#+#.##:.```          " << endl;
     cout << "          ``,:,'@@+:#'#;````````````````.,+#'::++:..``             " << endl;
     cout << "              ```````` ``              ` `````````                 " << endl;
-    int a;
-    cin >> a;
+    cin.get();
     return 0;
 }
